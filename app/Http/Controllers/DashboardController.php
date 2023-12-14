@@ -21,6 +21,8 @@ class DashboardController extends Controller
             ->where('tgl_presensi', $hariini)
             ->first();
 
+        // dd($presensihariini);
+
         // Histori Bulan Ini
         $historibulanini = DB::table('presensi')
             ->where('nik', $nik)
