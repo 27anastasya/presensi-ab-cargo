@@ -62,7 +62,7 @@
 														</a>
 												</div>
 												<div class="menu-name">
-														<span class="text-center">Cuti</span>
+														<span class="text-center">Data</span>
 												</div>
 										</div>
 										<div class="item-menu text-center">
@@ -75,7 +75,7 @@
 														<span class="text-center">Histori</span>
 												</div>
 										</div>
-										<div class="item-menu text-center">
+										<!-- <div class="item-menu text-center">
 												<div class="menu-icon">
 														<a href="" class="orange" style="font-size: 40px;">
 																<ion-icon name="location"></ion-icon>
@@ -84,7 +84,7 @@
 												<div class="menu-name">
 														Lokasi
 												</div>
-										</div>
+										</div> -->
 								</div>
 						</div>
 				</div>

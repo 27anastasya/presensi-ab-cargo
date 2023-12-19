@@ -87,15 +87,16 @@
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="form-group">
-                                <select name="status_approved" id="status_approved" class="form-select">
-                                    <option value="">Pilih Status</option>
-                                    <option value="0" {{ Request('status_approved') == '0' ? 'selected' : ' '}}>Waiting</option>
-                                    <option value="1" {{ Request('status_approved') == 1 ? 'selected' : ' '}}>Disetujui</option>
-                                    <option value="2" {{ Request('status_approved') == 2 ? 'selected' : ' '}}>Ditolak</option>
-                                </select>
-                            </div>
-                        </div>
+    <div class="form-group">
+        <select name="status_approved" id="status_approved" class="form-select">
+            <option value="" {{ Request('status_approved') === '' ? 'selected' : '' }}>Pilih Status</option>
+            <option value="0" {{ Request('status_approved') == '0' ? 'selected' : '' }}>Waiting</option>
+            <option value="1" {{ Request('status_approved') == '1' ? 'selected' : '' }}>Disetujui</option>
+            <option value="2" {{ Request('status_approved') == '2' ? 'selected' : '' }}>Ditolak</option>
+        </select>
+    </div>
+</div>
+
                         <div class="col-3">
                             <div class="form-group">
                                 <button class="btn btn-primary" type="submit">

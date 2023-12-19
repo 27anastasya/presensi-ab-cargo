@@ -33,6 +33,7 @@
 </div>
 <form action="/presensi/{{$karyawan->nik}}/updateprofile" method="POST" enctype="multipart/form-data">
     @csrf
+    @method('post')
     <div class="col">
         <div class="form-group boxed">
             <div class="input-wrapper">
